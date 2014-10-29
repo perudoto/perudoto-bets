@@ -4,5 +4,8 @@
     <string name="app_name">perudoto-app</string>
     <string name="action_settings">Settings</string>
     <string name="hello_world">Hello world!</string>
+    <string name="btnLogin">Login</string>
+    <string name="lblUser">Usuario</string>
+    <string name="lblPassword">Pasword</string>
 
 </resources>
