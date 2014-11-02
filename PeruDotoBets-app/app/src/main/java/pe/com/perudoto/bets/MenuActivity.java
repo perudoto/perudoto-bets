@@ -1,6 +1,15 @@
 package pe.com.perudoto.bets;
 
-import pe.com.perudoto.bets.fragments.*;
+import java.util.ArrayList;
+
+import pe.com.perudoto.bets.fragments.ConfigurationFragment;
+import pe.com.perudoto.bets.fragments.HomeFragment;
+import pe.com.perudoto.bets.fragments.MatchesFragment;
+import pe.com.perudoto.bets.fragments.MyBetsFragment;
+import pe.com.perudoto.bets.fragments.MyInventoryFragment;
+
+import pe.com.perudoto.bets.R;
+ 
 import android.app.Activity;
 import android.app.Fragment;
 import android.app.FragmentManager;
@@ -17,12 +26,7 @@ import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ListView;
 import android.widget.Toast;
-
-import java.util.ArrayList;
-
-
-
-
+ 
 public class MenuActivity extends Activity {
     private DrawerLayout mDrawerLayout;
     private ListView mDrawerList;

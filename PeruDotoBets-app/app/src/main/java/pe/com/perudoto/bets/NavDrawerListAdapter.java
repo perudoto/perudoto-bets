@@ -2,7 +2,7 @@ package pe.com.perudoto.bets;
 
 import java.util.ArrayList;
 
-
+import pe.com.perudoto.bets.R;
 
 import android.app.Activity;
 import android.content.Context;
